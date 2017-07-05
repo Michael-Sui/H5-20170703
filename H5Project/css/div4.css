@@ -1,0 +1,27 @@
+#div4 {
+	background-color: #EBF5FB;
+	width: 1140px;
+	height: 500px;
+	position: relative;
+}
+
+#div4-1 {
+	position: relative;
+	top: 180px;
+}
+
+#div4 #div4-1 * {
+	text-align: center;
+}
+
+#div4 #div4-2 img {
+	position: relative;
+	left: 630px;
+	top: 35px;
+}
+
+#div4-3 {
+	position: relative;
+	left: 420px;
+	top: 85px;
+}

@@ -1,0 +1,9 @@
+#div2 {
+	width: 1140px;
+	background-color: white;
+}
+
+#div2 #myCarousel .carousel-inner .item img {
+	width: 100%;
+	height: 300px;
+}

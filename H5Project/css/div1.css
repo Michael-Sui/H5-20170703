@@ -1,0 +1,78 @@
+#div1 {
+	width: 1140px;
+	height: 200px;
+	background-color: black;
+	display: block;
+	margin: 0 auto 0;
+}
+
+#div1 div {
+	float: left;
+}
+
+#div1-1 {
+	line-height: 200px;
+	margin-left: 20px;
+}
+
+#div1-1 a img {
+	width: 200px;
+}
+
+#div1-2 table {
+	height: 160px;
+	border-color: white;
+	border-left-style: solid;
+	border-width: 1px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#div1-3 {
+	line-height: 30px;
+	color: white;
+	margin-top: 70px;
+	margin-left: 20px;
+	font-size: 15px;
+}
+
+#div1-4 {
+	margin-top: 80px;
+	margin-left: 30px;
+	font-size: 15px;
+}
+
+#div1-4 a {
+	color: white;
+}
+
+#div1-5 {
+	color: white;
+	font-size: 15px;
+	margin-top: 90px;
+	margin-left: 20px;
+}
+
+#div1-5 a {
+	color: white;
+}
+
+#div1-6 {
+	margin-left: 20px;
+	margin-top: 82px;
+}
+
+#div1-6 button {
+	width: 60px;
+	height: 40px;
+	font-size: 15px;
+	color: white;
+}
+
+#div1-6-button1 {
+	background-color: limegreen;
+}
+
+#div1-6-button2 {
+	background-color: deepskyblue;
+}

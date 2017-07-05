@@ -1,0 +1,19 @@
+#div3 .rom .col-lg-4 img {
+	width: 140px;
+	height: 140px;
+}
+
+#div3 .rom .col-lg-4 * {
+	display: block;
+	margin: 0 auto;
+}
+
+#div3 .rom .col-lg-4 h2 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#div3 .rom .col-lg-4 p {
+	text-indent: 2em;
+	text-align: center;
+}
