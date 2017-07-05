@@ -1,0 +1,112 @@
+body {
+	background: url(../images/bg.png);
+}
+
+#div8 {
+	width: 800px;
+	height: 500px;
+	margin: 160px auto;
+	background-color: white;
+	position: relative;
+}
+
+#div8-1 {
+	width: 450px;
+	height: 500px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: white;
+}
+
+#div8-1-1 {
+	width: 450px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#div8-1-1 * {
+	float: left;
+}
+
+#div8-1-1 img {
+	width: 300px;
+	margin: 20px 40px;
+}
+
+#div8-1-1 p {
+	line-height: 100px;
+}
+
+#div8-1-2 {
+	width: 450px;
+	height: 400px;
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
+
+.inputNormal {
+	width: 400px;
+	height: 40px;
+}
+
+.longBeforeA {
+	margin-left: 252px;
+}
+
+.submitNormal {
+	margin-top: 40px;
+	width: 400px;
+	height: 40px;
+	color: white;
+	background-color: #3498DB;
+}
+
+.longAfterA {
+	margin-right: 195px;
+}
+
+#div8-2 {
+	width: 20px;
+	height: 500px;
+	position: absolute;
+	top: 0;
+	left: 500px;
+	background-color: white;
+}
+
+#div8-2 img {
+	height: 100%;
+}
+
+#div8-3 {
+	width: 280px;
+	height: 500px;
+	position: absolute;
+	top: 0;
+	left: 520px;
+	background-color: white;
+}
+
+.img1 {
+	width: 100px;
+	position: absolute;
+	top: 80px;
+	left: 90px;
+}
+
+.img2 {
+	width: 170px;
+	position: absolute;
+	top: 200px;
+	left: 50px;
+}
+
+#div8-3 p {
+	position: absolute;
+	top: 400px;
+	left: 60px;
+}

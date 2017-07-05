@@ -5,7 +5,7 @@
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
-		<title></title>
+		<title>主页</title>
 		<link rel="stylesheet" href="./css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="./css/div1.css">
 		<link rel="stylesheet" type="text/css" href="./css/div2.css">
@@ -16,9 +16,13 @@
 		<link rel="stylesheet" type="text/css" href="./css/btdiv4div5.css">
 		<link rel="stylesheet" type="text/css" href="./css/div5.css">
 		<link rel="stylesheet" type="text/css" href="./css/div6.css">
-		<style>
-		
-		</style>
+		<link rel="stylesheet" type="text/css" href="./css/div7.css">
+		<style></style>
+		<script>
+			function jumpToRegister(){
+				window.open("./html/register.html");
+			}
+		</script>
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -73,7 +77,7 @@
 					</a>
 				</div>
 				<div id="div1-6">
-					<button type="button" class="btn btn-default" id="div1-6-button1">登陆</button>
+					<button type="button" class="btn btn-default" id="div1-6-button1" onclick="jumpToRegister()">登陆</button>
 					<button type="button" class="btn btn-default" id="div1-6-button2">注册</button>
 				</div>
 			</div>
@@ -296,6 +300,7 @@
 					</div>
 				</div>
 			</div>
+			<div id="div7"></div>
 		</div>
 		<script src="./js/jquery.js"></script>
 		<script src="./js/bootstrap.js"></script>
