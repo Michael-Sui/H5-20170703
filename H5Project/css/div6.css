@@ -1,0 +1,98 @@
+#div6 {
+	width: 1140px;
+	height: 300px;
+	background-color: #566573;
+	position: relative;
+}
+
+#div6-1 {
+	width: 840px;
+	height: 300px;
+	background-color: #566573;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#div6-1-1 {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+#div6-1-2 {
+	position: absolute;
+	top: 120px;
+	left: 50px;
+}
+
+#div6-1-2 p {
+	text-align: left;
+	color: white;
+}
+
+#div6-1-3 {
+	position: absolute;
+	top: 190px;
+	left: 50px;
+}
+
+#div6-2 {
+	width: 300px;
+	height: 300px;
+	background-color: #566573;
+	position: absolute;
+	top: 0;
+	left: 840px;
+}
+
+#div6-2-1 {
+	width: 50px;
+	height: 50px;
+	background-image: url(../images/footer_focus.png);
+	background-repeat: no-repeat;
+	background-position: 0px 10px;
+	background-color: #85C1E9;
+	border-radius: 50%;
+	position: absolute;
+	top: 80px;
+	left: 0px;
+}
+
+#div6-2-2 {
+	width: 50px;
+	height: 50px;
+	background-image: url(../images/footer_focus.png);
+	background-repeat: no-repeat;
+	background-position: -90px 10px;
+	background-color: #85C1E9;
+	border-radius: 50%;
+	position: absolute;
+	top: 80px;
+	left: 160px;
+}
+
+#div6-2-3 {
+	width: 50px;
+	height: 50px;
+	background-image: url(../images/footer_focus.png);
+	background-repeat: no-repeat;
+	background-position: -179px 10px;
+	background-color: #85C1E9;
+	border-radius: 50%;
+	position: absolute;
+	top: 80px;
+	left: 80px;
+}
+
+#div6-2-4 {
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	top: 50px;
+	left: -20px;
+}
+
+#div6-2-4 p {
+	color: white;
+}
