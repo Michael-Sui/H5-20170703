@@ -27,14 +27,14 @@
 					</div id="div8-1-1">
 					<div id="div8-1-2">
 						<br /><br />
-						<form method="post" action="#">
+						<form method="get" action="./success.html" onsubmit="return f_validate()">
 							<select name="school" class="inputNormal">
 								<option value="dalianjiaotong">大连交通大学</option>
 							</select>
 							<br /><br />
-							<input class="inputNormal" name="username" type="text" placeholder="请输入手机号/邮箱/学号">
+							<input id="username" class="inputNormal" name="username" type="text" placeholder="请输入手机号">
 							<br /><br />
-							<input class="inputNormal" name="password" type="password" placeholder="请输入密码">
+							<input id="password" class="inputNormal" name="password" type="password" placeholder="请输入密码">
 							<br /><br /><br />
 							<input type="checkbox" name="remember" />七天免登录
 							<a href="#" class="longBeforeA">忘记密码?</a>
@@ -59,6 +59,28 @@
 		</div class="container">
 		<script src="../js/jquery.js"></script>
 		<script src="../js/bootstrap.js"></script>
+
+		<script>
+			function f_validate() {
+				var un = document.getElementById("username");
+				var pwd = document.getElementById("password");
+				if(un.value.length == 0) {
+					alert("用户名不能为空");
+					return false;
+				}
+				var un0 = un.value.charAt(0);
+				var un1 = un.value.charAt(1);
+				if(un.value.length != 11 || un0 != "1" || (un1 != "3" && un1 != "4" && un1 != "5" && un1 != "7" && un1 != "8")) {
+					alert("请输入合法的手机号");
+					return false;
+				}
+				if(pwd.value.length == 0) {
+					alert("密码不能为空");
+					return false;
+				}
+				return true;
+			}
+		</script>
 	</body>
 
 </html>

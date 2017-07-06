@@ -57,6 +57,7 @@
 	position: absolute;
 	top: 80px;
 	left: 0px;
+	cursor: pointer;
 }
 
 #div6-2-2 {
@@ -70,6 +71,7 @@
 	position: absolute;
 	top: 80px;
 	left: 160px;
+	cursor: pointer;
 }
 
 #div6-2-3 {
@@ -83,6 +85,7 @@
 	position: absolute;
 	top: 80px;
 	left: 80px;
+	cursor: pointer;
 }
 
 #div6-2-4 {
