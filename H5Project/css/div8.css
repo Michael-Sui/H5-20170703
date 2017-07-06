@@ -8,6 +8,7 @@ body {
 	margin: 160px auto;
 	background-color: white;
 	position: relative;
+	box-shadow: gray 0 8px 5px;
 }
 
 #div8-1 {
